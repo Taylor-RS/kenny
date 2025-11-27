@@ -419,7 +419,7 @@ input::placeholder, textarea::placeholder{
 
 button{
     padding:15px 30px;
-    background:linear-gradient(135deg, #000000, #ff9900);
+    background:linear-gradient(135deg, #141412, #ff9900);
     border:none;
     border-radius:12px;
     font-weight:bold;
