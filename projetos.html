@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos | Keany Pessula</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5a7a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles-common.css">
+</head>
+<body>
+
+<i id="openMenu" class="fas fa-bars"></i>
+
+<div id="sidebar">
+  <div id="center">
+    <h2>MENU</h2>
+    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+    <a href="sobre.html"><i class="fas fa-user"></i> Sobre Mim</a>
+    <a href="formacao.html"><i class="fas fa-graduation-cap"></i> Formação</a>
+    <a href="skills.html"><i class="fas fa-code"></i> Competências</a>
+    <a href="projetos.html"><i class="fas fa-laptop-code"></i> Projetos</a>
+    <a href="galeria.html"><i class="fas fa-images"></i> Galeria</a>
+    <a href="contacto.html"><i class="fas fa-envelope"></i> Contato</a>
+  </div>
+</div>
+
+<button id="darkToggle" onclick="toggleDark()">
+  <i class="fas fa-moon"></i>
+  <span>Modo Escuro</span>
+</button>
+
+<header>
+  <h1>Meus Projetos</h1>
+</header>
+
+<div class="container">
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-laptop-code"></i> Projetos Realizados</h3>
+    <div class="projetos-grid">
+      <div class="projeto-card">
+        <i class="fas fa-globe"></i>
+        <h4>Websites Modernos</h4>
+        <p>Desenvolvimento de sites responsivos e otimizados com design moderno e experiência de utilizador excepcional. Utilizo HTML5, CSS3 e 
+          JavaScript para criar interfaces elegantes e funcionais.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">HTML</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">CSS</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <i class="fas fa-tools"></i>
+        <h4>Manutenção de PCs</h4>
+        <p>Montagem, configuração e manutenção de computadores com foco em desempenho e fiabilidade. Diagnóstico de problemas,
+           atualização de hardware e otimização de sistemas.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Hardware</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Diagnóstico</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Otimização</span>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <i class="fas fa-network-wired"></i>
+        <h4>Redes & Infraestrutura</h4>
+        <p>Configuração e gestão de redes de computadores, resolução de problemas de conectividade e otimização de sistemas de rede. Implementação de soluções seguras e eficientes.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">TCP/IP</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Router</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Segurança</span>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h4>Design Responsivo</h4>
+        <p>Criação de layouts adaptativos que funcionam perfeitamente em todos os dispositivos - desktop, tablet e mobile. Mobile-first approach com foco em performance.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Responsive</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Mobile-First</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Flexbox</span>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <i class="fas fa-palette"></i>
+        <h4>UI/UX Design</h4>
+        <p>Interfaces visuais atraentes com experiência de utilizador intuitiva. Foco em acessibilidade, usabilidade e conversão através de design pensado.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">UI Design</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">UX</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Prototipagem</span>
+        </div>
+      </div>
+
+      <div class="projeto-card">
+        <i class="fas fa-database"></i>
+        <h4>Sistemas de Gestão</h4>
+        <p>Desenvolvimento de sistemas para gestão de dados e processos. Soluções práticas para automatização de tarefas e organização de informações.</p>
+        <div style="margin-top:15px;">
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Automação</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Gestão</span>
+          <span style="display:inline-block; background:rgba(255,204,0,0.2); padding:5px 10px; border-radius:5px; font-size:0.85em; margin:3px;">Eficiência</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="scripts-common.js"></script>
+</body>
+</html>

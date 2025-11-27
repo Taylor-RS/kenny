@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria | Keany Pessula</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5a7a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles-common.css">
+</head>
+<body>
+
+<i id="openMenu" class="fas fa-bars"></i>
+
+<div id="sidebar">
+  <div id="center">
+    <h2>MENU</h2>
+    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+    <a href="sobre.html"><i class="fas fa-user"></i> Sobre Mim</a>
+    <a href="formacao.html"><i class="fas fa-graduation-cap"></i> Formação</a>
+    <a href="skills.html"><i class="fas fa-code"></i> Competências</a>
+    <a href="projetos.html"><i class="fas fa-laptop-code"></i> Projetos</a>
+    <a href="galeria.html"><i class="fas fa-images"></i> Galeria</a>
+    <a href="contacto.html"><i class="fas fa-envelope"></i> Contato</a>
+  </div>
+</div>
+
+<button id="darkToggle" onclick="toggleDark()">
+  <i class="fas fa-moon"></i>
+  <span>Modo Escuro</span>
+</button>
+
+<header>
+  <h1>Galeria</h1>
+</header>
+
+<div class="container">
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-images"></i> Slides de wallpapers</h3>
+    
+    <div class="slider">
+      <div class="slides">
+        <img src= "./fotos html/Koenigsegg JESKO ABSOLUTE.jpg" alt="Projeto 1">
+        <img src= "./fotos html/Koinigsegg Jesko Absolut Wallpaper 8K Cool Original Poster Edit.jpg" alt="Projeto 2">
+        <img src= "./fotos html/McLaren Senna _ Eruma_Dsgn.jpg"alt="Projeto 3">
+        <img src= "./fotos html/porsche 🏎.jpg" alt="Projeto 4">
+       <img src= "./fotos html/Koenigsegg JESKO ABSOLUTE.jpg" alt="Projeto 5">
+      </div>
+      <div aria-hidden class="slides">
+        <img src= "./fotos html/Koenigsegg JESKO ABSOLUTE.jpg" alt="Projeto 1">
+        <img src= "./fotos html/Koinigsegg Jesko Absolut Wallpaper 8K Cool Original Poster Edit.jpg" alt="Projeto 2">
+        <img src= "./fotos html/McLaren Senna _ Eruma_Dsgn.jpg"alt="Projeto 3">
+        <img src= "./fotos html/porsche 🏎.jpg" alt="Projeto 4">
+       <img src= "./fotos html/Koenigsegg JESKO ABSOLUTE.jpg" alt="Projeto 5">
+      </div>
+    </div>
+
+    <p style="margin-top:30px; text-align:center; opacity:0.8;">
+      <i class="fas fa-info-circle"></i> Slider automático mostrando diferentes imagem
+    </p>
+  </section>
+
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-th"></i>Minha Galeria</h3>
+    <div class="galeria">
+      <img src="./fotos html/download (13).jpg" alt="Web 1">
+      <img src="./fotos html/Supra😈 (2).jpg" alt="Web 2">
+      <img src="./fotos html/download (11).jpg" alt="Web 3">
+      <img src="./fotos html/undefined (2).jpg" alt="Web 4">
+      <img src="./fotos html/undefined (4).jpg" alt="Tech 1">
+      <img src="./fotos html/download (9).jpg" alt="Tech 2">
+    </div>
+  </section>
+</div>
+
+<script src="scripts-common.js"></script>
+</body>
+</html>

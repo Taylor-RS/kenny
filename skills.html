@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competências | Keany Pessula</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5a7a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles-common.css">
+</head>
+<body>
+
+<i id="openMenu" class="fas fa-bars"></i>
+
+<div id="sidebar">
+  <div id="center">
+    <h2>MENU</h2>
+    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+    <a href="sobre.html"><i class="fas fa-user"></i> Sobre Mim</a>
+    <a href="formacao.html"><i class="fas fa-graduation-cap"></i> Formação</a>
+    <a href="skills.html"><i class="fas fa-code"></i> Competências</a>
+    <a href="projetos.html"><i class="fas fa-laptop-code"></i> Projetos</a>
+    <a href="galeria.html"><i class="fas fa-images"></i> Galeria</a>
+    <a href="contacto.html"><i class="fas fa-envelope"></i> Contato</a>
+  </div>
+</div>
+
+<button id="darkToggle" onclick="toggleDark()">
+  <i class="fas fa-moon"></i>
+  <span>Modo Escuro</span>
+</button>
+
+<header>
+  <h1>Competências Técnicas</h1>
+</header>
+
+<div class="container">
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-code"></i> Desenvolvimento Web</h3>
+    <div class="skills">
+      <div class="skill-card">
+        <h4><i class="fab fa-html5"></i> HTML</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:90%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">HTML5 semântico, acessibilidade, SEO</p>
+      </div>
+      <div class="skill-card">
+        <h4><i class="fab fa-css3-alt"></i> CSS</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:90%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">Flexbox, Grid, Animações, Responsivo</p>
+      </div>
+      <div class="skill-card">
+        <h4><i class="fab fa-js"></i> JavaScript</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:75%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">ES6+, DOM, APIs, Interatividade</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-tools"></i> Suporte Técnico</h3>
+    <div class="skills">
+      <div class="skill-card">
+        <h4><i class="fas fa-desktop"></i> Manutenção de PCs</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:95%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">Montagem, diagnóstico, reparação</p>
+      </div>
+      <div class="skill-card">
+        <h4><i class="fas fa-network-wired"></i> Redes</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:85%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">Configuração, troubleshooting, TCP/IP</p>
+      </div>
+      <div class="skill-card">
+        <h4><i class="fas fa-shield-alt"></i> Segurança</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width:80%"></div>
+        </div>
+        <p style="margin-top:10px; font-size:0.9em;">Proteção de dados, antivírus, firewall</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao fade-slide">
+    <h3><i class="fas fa-cogs"></i> Ferramentas & Tecnologias</h3>
+    <div class="projetos-grid">
+      <div class="projeto-card">
+        <i class="fab fa-git-alt"></i>
+        <h4>Git & GitHub</h4>
+        <p>Versionamento de código e colaboração</p>
+      </div>
+      <div class="projeto-card">
+        <i class="fab fa-windows"></i>
+        <h4>Windows & Linux</h4>
+        <p>Administração de sistemas operacionais</p>
+      </div>
+      <div class="projeto-card">
+        <i class="fas fa-code-branch"></i>
+        <h4>VS Code</h4>
+        <p>Editor de código profissional</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="scripts-common.js"></script>
+</body>
+</html>
